@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Taza",
+    "precio": 1000,
+    "imagen": "https://images.unsplash.com/photo-1523367118146-091f762cd8ea",
+    "descripcion": "Lote de tazas de cerámica blanca sobre superficie blanca"
+  },
+  {
+    "nombre": "Cuenco",
+    "precio": 2000,
+    "imagen": "https://images.unsplash.com/photo-1523367438061-01c055ce790c",
+    "descripcion": "Cuencos de cerámica blanca sobre superficie blanca"
+  },
+  {
+    "nombre": "Ollas",
+    "precio": 4000,
+    "imagen": "https://images.unsplash.com/photo-1523976714396-3ee195e3b3a1",
+    "descripcion": "Ollas restauradas de alumnio anodizado sobre superficie blanca"
+  },
+  {
+    "nombre": "Botella",
+    "precio": 2000,
+    "imagen": "https://images.unsplash.com/photo-1523263889714-d345f8119047",
+    "descripcion": "Botella para bebidas frias de cerámica de tierra torneada sobre superficie blanca"
+  },
+  {
+    "nombre": "Platos",
+    "precio": 3000,
+    "imagen": "https://images.unsplash.com/photo-1525973779373-015bdf68e579",
+    "descripcion": "Set de platos de cerámica de tierra torneada sobre superficie blanca"
+  },
+  {
+    "nombre": "Botellas x3",
+    "precio": 4000,
+    "imagen": "https://images.unsplash.com/photo-1523264067855-7b9941f18ca9",
+    "descripcion": "Set de Botella de cerámica de tierra torneada sobre superficie blanca"
+  }
+]

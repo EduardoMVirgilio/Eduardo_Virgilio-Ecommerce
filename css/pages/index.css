@@ -1,0 +1,105 @@
+@import url('../imports/base.css');
+
+/* Mobile */
+#productos {
+    width: calc(100% - 1rem);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    max-height: calc(80vh - 2rem);
+    overflow-y: scroll;
+    height: calc(80vh - 2rem);
+    margin-bottom: 1rem;
+}
+
+.producto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    background-color: rgba(80, 80, 80, .4);
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.producto>p {
+    padding: .25rem;
+    width: 100%;
+    display: flex;
+}
+
+.producto>p:nth-child(3) {
+    justify-content: space-between;
+}
+
+.producto form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.producto form button {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    color: var(--purple-color);
+    cursor: pointer;
+    scale: 1;
+    transition: all 300ms ease-in-out;
+}
+
+.producto form button:hover {
+    background-color: var(--purple-color);
+    color: var(--teal-color);
+    scale: 1.1;
+}
+
+header {
+    width: 100%;
+    background-color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+header nav a {
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--purple-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    text-decoration: none;
+
+}
+
+
+
+/* Tablet 1280px*/
+@media screen and (min-width:1280px) and (max-width:1366px) {}
+
+/* Desktop 1366px*/
+@media screen and (min-width:1366px) {
+    #productos {
+        width: 75vw;
+    }
+}

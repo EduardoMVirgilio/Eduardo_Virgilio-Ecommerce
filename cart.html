@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online | Cart</title>
+    <link rel="stylesheet" href="css/pages/cart.css" />
+    <script defer type="module" src="js/cart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Tienda Online</h1>
+      <nav>
+        <a href="#">
+          <i class="fa-solid fa-house"></i>
+        </a>
+        <a href="#carrito">
+          <i class="fa-solid fa-shopping-cart"></i>
+        </a>
+      </nav>
+    </header>
+    <section id="carrito">
+      <header>
+        <h2>carrito</h2>
+        <p id="total">AR$2000</p>
+        <form action="#">
+          <button type="button" id="deleteAll">
+            <i class="fa-solid fa-trash"></i>
+            <span id="cantidad">4</span>
+          </button>
+        </form>
+      </header>
+      <ul id="items"></ul>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

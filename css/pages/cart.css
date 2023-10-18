@@ -1,0 +1,153 @@
+@import url('../imports/base.css');
+
+header {
+    width: 100%;
+    background-color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+header nav a {
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--purple-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    text-decoration: none;
+
+}
+
+#carrito {
+    width: calc(100% - 2rem);
+    background-color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all 300ms ease-in-out;
+}
+
+#carrito header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 0 .25rem .25rem 0 rgba(80, 80, 80, .4);
+}
+
+#carrito header h2 {
+    color: var(--purple-color);
+}
+
+#carrito header p {
+    color: var(--purple-color);
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+#carrito header button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--purple-color);
+    border-radius: 1rem;
+    color: var(--light-color)
+}
+
+
+#carrito header button span {
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .75rem;
+    background-color: var(--teal-color);
+    top: -.5rem;
+    right: -.5rem;
+    border-radius: .5rem;
+    color: black;
+}
+
+#items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-height: calc(80vh - 1rem);
+    overflow-y: scroll;
+    padding: 1rem;
+    height: calc(80vh - 1rem);
+    width: 100%;
+}
+
+.item {
+    height: 15vh;
+    display: flex;
+    background-color: var(--purple-color);
+    position: relative;
+}
+
+.item section {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .25rem;
+    padding: .25rem;
+    justify-content: space-between;
+}
+
+.item section form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .25rem;
+    gap: .25rem;
+}
+
+.item section form button {
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--teal-color);
+    border-radius: 1rem;
+}
+
+.item>form {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.item>form button {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 1rem 0;
+    background-color: rgb(222, 61, 109);
+    color: var(--light-color);
+}
